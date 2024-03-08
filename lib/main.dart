@@ -85,23 +85,501 @@ void main() {
                 ],
               ),
               Container(
-                padding: EdgeInsets.all(10),
+                margin: EdgeInsets.fromLTRB(0, 40, 0, 10),
+                padding: EdgeInsets.all(20),
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20),
+                  borderRadius: BorderRadius.circular(30),
                   color: Colors.blue[400],
-
                 ),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+
+                       const Text("Generally clear. Low 7°C",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15,
+                        ),
+                        ),
+
                     Container(
-                      child: Text("Generally clear. Low 7 C"),
-                    ),
-                    Container(
-                      height: 200,
+                      margin: EdgeInsets.fromLTRB(0, 10,0,0),
+                      padding:EdgeInsets.fromLTRB(0, 20, 0 , 0),
+                      decoration:const BoxDecoration(
+                        border: Border(
+                          top: BorderSide(
+                            color: Colors.white38,
+                            width: 0.5,
+                          )
+                        )
+                      ),
+                      height: 170,
                       child: ListView(
                         scrollDirection:Axis.horizontal,
                         children: [
-                            Text("h")
+                            Container(
+                              margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                              child:Column(
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Column(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      const Text("5:45 pm",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 12,
+                                        ),
+                                      ),
+                                      Icon(
+                                        Icons.brightness_1,
+                                        color:Colors.orangeAccent[200],
+                                      ),
+                                      Container(
+                                        margin:EdgeInsets.symmetric(vertical: 10),
+                                        child: const Text("19°",
+                                          style: TextStyle(
+                                            fontSize: 16,
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.bold,
+                                          ),),
+                                      ),
+                                    ],
+                                  ),
+                                  Row(
+                                    children: [
+                                      Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 12,),
+                                      Text("0%",style:
+                                        TextStyle(
+                                          color:Colors.white,
+                                          fontSize: 12,
+                                        ),),
+                                    ],
+                                  )
+                                ],
+                              ),
+                            ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                            child:Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    const Text("5:45 pm",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    Icon(
+                                      Icons.brightness_1,
+                                      color:Colors.orangeAccent[200],
+                                    ),
+                                    Container(
+                                      margin:EdgeInsets.symmetric(vertical: 10),
+                                      child: const Text("19°",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 12,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 12,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                            child:Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    const Text("5:45 pm",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    Icon(
+                                      Icons.brightness_1,
+                                      color:Colors.orangeAccent[200],
+                                    ),
+                                    Container(
+                                      margin:EdgeInsets.symmetric(vertical: 10),
+                                      child: const Text("19°",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 12,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 12,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                            child:Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    const Text("5:45 pm",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    Icon(
+                                      Icons.brightness_1,
+                                      color:Colors.orangeAccent[200],
+                                    ),
+                                    Container(
+                                      margin:EdgeInsets.symmetric(vertical: 10),
+                                      child: const Text("19°",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 12,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 12,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                            child:Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    const Text("5:45 pm",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    Icon(
+                                      Icons.brightness_1,
+                                      color:Colors.orangeAccent[200],
+                                    ),
+                                    Container(
+                                      margin:EdgeInsets.symmetric(vertical: 10),
+                                      child: const Text("19°",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 12,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 12,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                            child:Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    const Text("5:45 pm",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    Icon(
+                                      Icons.brightness_1,
+                                      color:Colors.orangeAccent[200],
+                                    ),
+                                    Container(
+                                      margin:EdgeInsets.symmetric(vertical: 10),
+                                      child: const Text("19°",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 12,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 12,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                            child:Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    const Text("5:45 pm",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    Icon(
+                                      Icons.brightness_1,
+                                      color:Colors.orangeAccent[200],
+                                    ),
+                                    Container(
+                                      margin:EdgeInsets.symmetric(vertical: 10),
+                                      child: const Text("19°",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 12,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 12,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                            child:Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    const Text("5:45 pm",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    Icon(
+                                      Icons.brightness_1,
+                                      color:Colors.orangeAccent[200],
+                                    ),
+                                    Container(
+                                      margin:EdgeInsets.symmetric(vertical: 10),
+                                      child: const Text("19°",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 12,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 12,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                            child:Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    const Text("5:45 pm",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    Icon(
+                                      Icons.brightness_1,
+                                      color:Colors.orangeAccent[200],
+                                    ),
+                                    Container(
+                                      margin:EdgeInsets.symmetric(vertical: 10),
+                                      child: const Text("19°",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 12,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 12,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            margin: EdgeInsets.fromLTRB(0, 0, 5, 0),
+                            child:Column(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    const Text("5:45 pm",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                    Icon(
+                                      Icons.brightness_1,
+                                      color:Colors.orangeAccent[200],
+                                    ),
+                                    Container(
+                                      margin:EdgeInsets.symmetric(vertical: 10),
+                                      child: const Text("19°",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                        ),),
+                                    ),
+                                  ],
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 12,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 12,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+
+
                         ],
                       ),
                     )
