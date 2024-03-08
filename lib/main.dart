@@ -8,9 +8,9 @@ void main() {
         title: Text(""),
       ),
       body: Container(
-          padding: EdgeInsets.all(15),
+          padding: EdgeInsets.fromLTRB(15, 15, 15, 0),
           color: Colors.blue[300],
-          child: Column(
+          child: ListView(
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -102,7 +102,6 @@ void main() {
                           fontSize: 15,
                         ),
                         ),
-
                     Container(
                       margin: EdgeInsets.fromLTRB(0, 10,0,0),
                       padding:EdgeInsets.fromLTRB(0, 20, 0 , 0),
@@ -173,7 +172,7 @@ void main() {
                                 Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    const Text("5:45 pm",
+                                    const Text("6:45 pm",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
@@ -181,12 +180,12 @@ void main() {
                                       ),
                                     ),
                                     Icon(
-                                      Icons.brightness_1,
+                                      Icons.sunny_snowing,
                                       color:Colors.orangeAccent[200],
                                     ),
                                     Container(
                                       margin:EdgeInsets.symmetric(vertical: 10),
-                                      child: const Text("19°",
+                                      child: const Text("16°",
                                         style: TextStyle(
                                           fontSize: 16,
                                           color: Colors.white,
@@ -219,7 +218,7 @@ void main() {
                                 Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    const Text("5:45 pm",
+                                    const Text("7:45 pm",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
@@ -227,12 +226,12 @@ void main() {
                                       ),
                                     ),
                                     Icon(
-                                      Icons.brightness_1,
-                                      color:Colors.orangeAccent[200],
+                                      Icons.nightlight_round,
+                                      color:Colors.orange[200],
                                     ),
                                     Container(
                                       margin:EdgeInsets.symmetric(vertical: 10),
-                                      child: const Text("19°",
+                                      child: const Text("14°",
                                         style: TextStyle(
                                           fontSize: 16,
                                           color: Colors.white,
@@ -265,7 +264,7 @@ void main() {
                                 Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    const Text("5:45 pm",
+                                    const Text("8:45 pm",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
@@ -273,12 +272,12 @@ void main() {
                                       ),
                                     ),
                                     Icon(
-                                      Icons.brightness_1,
-                                      color:Colors.orangeAccent[200],
+                                      Icons.nightlight_round,
+                                      color:Colors.orange[200],
                                     ),
                                     Container(
                                       margin:EdgeInsets.symmetric(vertical: 10),
-                                      child: const Text("19°",
+                                      child: const Text("15°",
                                         style: TextStyle(
                                           fontSize: 16,
                                           color: Colors.white,
@@ -311,7 +310,7 @@ void main() {
                                 Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    const Text("5:45 pm",
+                                    const Text("9:45 pm",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
@@ -319,12 +318,12 @@ void main() {
                                       ),
                                     ),
                                     Icon(
-                                      Icons.brightness_1,
-                                      color:Colors.orangeAccent[200],
+                                      Icons.nightlight_round,
+                                      color:Colors.orange[200],
                                     ),
                                     Container(
                                       margin:EdgeInsets.symmetric(vertical: 10),
-                                      child: const Text("19°",
+                                      child: const Text("14°",
                                         style: TextStyle(
                                           fontSize: 16,
                                           color: Colors.white,
@@ -357,7 +356,7 @@ void main() {
                                 Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    const Text("5:45 pm",
+                                    const Text("10:45 pm",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
@@ -365,12 +364,12 @@ void main() {
                                       ),
                                     ),
                                     Icon(
-                                      Icons.brightness_1,
-                                      color:Colors.orangeAccent[200],
+                                      Icons.nightlight_round,
+                                      color:Colors.orange[200],
                                     ),
                                     Container(
                                       margin:EdgeInsets.symmetric(vertical: 10),
-                                      child: const Text("19°",
+                                      child: const Text("12°",
                                         style: TextStyle(
                                           fontSize: 16,
                                           color: Colors.white,
@@ -403,7 +402,7 @@ void main() {
                                 Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    const Text("5:45 pm",
+                                    const Text("11:45 pm",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
@@ -411,12 +410,12 @@ void main() {
                                       ),
                                     ),
                                     Icon(
-                                      Icons.brightness_1,
-                                      color:Colors.orangeAccent[200],
+                                      Icons.nightlight_round,
+                                      color:Colors.orange[200],
                                     ),
                                     Container(
                                       margin:EdgeInsets.symmetric(vertical: 10),
-                                      child: const Text("19°",
+                                      child: const Text("10°",
                                         style: TextStyle(
                                           fontSize: 16,
                                           color: Colors.white,
@@ -449,7 +448,7 @@ void main() {
                                 Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    const Text("5:45 pm",
+                                    const Text("12:45 am",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
@@ -457,12 +456,12 @@ void main() {
                                       ),
                                     ),
                                     Icon(
-                                      Icons.brightness_1,
-                                      color:Colors.orangeAccent[200],
+                                      Icons.nightlight_round,
+                                      color:Colors.orange[200],
                                     ),
                                     Container(
                                       margin:EdgeInsets.symmetric(vertical: 10),
-                                      child: const Text("19°",
+                                      child: const Text("7°",
                                         style: TextStyle(
                                           fontSize: 16,
                                           color: Colors.white,
@@ -495,7 +494,7 @@ void main() {
                                 Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    const Text("5:45 pm",
+                                    const Text("1:45 pm",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
@@ -503,12 +502,12 @@ void main() {
                                       ),
                                     ),
                                     Icon(
-                                      Icons.brightness_1,
-                                      color:Colors.orangeAccent[200],
+                                      Icons.nightlight_round,
+                                      color:Colors.orange[200],
                                     ),
                                     Container(
                                       margin:EdgeInsets.symmetric(vertical: 10),
-                                      child: const Text("19°",
+                                      child: const Text("5°",
                                         style: TextStyle(
                                           fontSize: 16,
                                           color: Colors.white,
@@ -541,7 +540,7 @@ void main() {
                                 Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    const Text("5:45 pm",
+                                    const Text("2:45 am",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
@@ -549,12 +548,12 @@ void main() {
                                       ),
                                     ),
                                     Icon(
-                                      Icons.brightness_1,
-                                      color:Colors.orangeAccent[200],
+                                      Icons.nightlight_round,
+                                      color:Colors.orange[200],
                                     ),
                                     Container(
                                       margin:EdgeInsets.symmetric(vertical: 10),
-                                      child: const Text("19°",
+                                      child: const Text("4°",
                                         style: TextStyle(
                                           fontSize: 16,
                                           color: Colors.white,
@@ -578,11 +577,578 @@ void main() {
                               ],
                             ),
                           ),
-
-
                         ],
                       ),
-                    )
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                width:500,
+                padding: EdgeInsets.all(10),
+                decoration:BoxDecoration(
+                  color: Colors.blue[400],
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                 child: Column(
+                   mainAxisAlignment: MainAxisAlignment.center,
+                   children:[
+                     Text("Tomorrow's Outlook",style:
+                       TextStyle(
+                         color: Colors.white,
+                         fontWeight: FontWeight.bold,
+                         fontSize: 16,
+                       ),),
+                     Text("Sunny tomorrow. High of 23°",
+                     style: TextStyle(
+                       color: Colors.white,
+                     ),),
+                   ]
+                 )
+
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(vertical: 10),
+                  padding: EdgeInsets.all(20),
+                  decoration:BoxDecoration(
+                    color: Colors.blue[400],
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 5),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text("Yesterday",style: TextStyle(
+                            color: Colors.grey[400],
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),),
+                          Container(
+                            width: 150,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                              Icon(
+                              Icons.brightness_1,
+                              color:Colors.orangeAccent[200],
+                            ),
+                            Icon(
+                            Icons.nightlight_round,
+                            color:Colors.orange[200],
+                          ),
+                                Text("23°",style:TextStyle(
+                                  color:Colors.grey[400],
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                )
+                                ),
+                                Text("8°",style:TextStyle(
+                                  color:Colors.grey[400],
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+
+                                )
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 5),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            width: 160,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Today",style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                  ),
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 14,),
+                                    Text("2%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 14,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            width: 150,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Icon(
+                                  Icons.brightness_1,
+                                  color:Colors.orangeAccent[200],
+                                ),
+                                Icon(
+                                  Icons.nightlight_round,
+                                  color:Colors.orange[200],
+                                ),
+                                Text("23°",style:TextStyle(
+                                  color:Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                )
+                                ),
+                                Text("8°",style:TextStyle(
+                                  color:Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+
+                                )
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 5),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            width: 160,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Saturday",style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 14,),
+                                    Text("1%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 14,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            width: 150,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Icon(
+                                  Icons.brightness_1,
+                                  color:Colors.orangeAccent[200],
+                                ),
+                                Icon(
+                                  Icons.nightlight_round,
+                                  color:Colors.orange[200],
+                                ),
+                                Text("23°",style:TextStyle(
+                                  color:Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                )
+                                ),
+                                Text("9°",style:TextStyle(
+                                  color:Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+
+                                )
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 5),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            width: 160,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Sunday",style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 14,),
+                                    Text("1%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 14,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            width: 150,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Icon(
+                                  Icons.brightness_1,
+                                  color:Colors.orangeAccent[200],
+                                ),
+                                Icon(
+                                  Icons.nightlight_round,
+                                  color:Colors.orange[200],
+                                ),
+                                SizedBox(
+                                  width: 65,
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("24°",style:TextStyle(
+                                        color:Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      )
+                                      ),
+                                      Text("10°",style:TextStyle(
+                                        color:Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+
+                                      )
+                                      )
+                                    ],
+                                  ),
+                                )
+
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 5),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            width: 160,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Monday",style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 14,),
+                                    Text("2%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 14,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            width: 150,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Icon(
+                                  Icons.brightness_1,
+                                  color:Colors.orangeAccent[200],
+                                ),
+                                Icon(
+                                  Icons.nightlight_round,
+                                  color:Colors.orange[200],
+                                ),
+                                SizedBox(
+                                  width: 65,
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("25°",style:TextStyle(
+                                        color:Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      )
+                                      ),
+                                      Text("12°",style:TextStyle(
+                                        color:Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      )
+                                      )
+                                    ],
+                                  ),
+                                )
+
+                                ,
+
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 5),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            width: 160,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Tuesday",style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 14,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 14,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            width: 150,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Icon(
+                                  Icons.brightness_1,
+                                  color:Colors.orangeAccent[200],
+                                ),
+                                Icon(
+                                  Icons.nightlight_round,
+                                  color:Colors.orange[200],
+                                ),
+                                SizedBox(
+                                  width: 65,
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("26°",style:TextStyle(
+                                        color:Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      )
+                                      ),
+                                      Text("11°",style:TextStyle(
+                                        color:Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      )
+                                      )
+                                    ],
+                                  ),
+                                )
+
+                                ,
+
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 5),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            width: 160,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Wednesday",style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 14,),
+                                    Text("0%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 14,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            width: 150,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Icon(
+                                  Icons.brightness_1,
+                                  color:Colors.orangeAccent[200],
+                                ),
+                                Icon(
+                                  Icons.nightlight_round,
+                                  color:Colors.orange[200],
+                                ),
+                                SizedBox(
+                                  width: 65,
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("26°",style:TextStyle(
+                                        color:Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      )
+                                      ),
+                                      Text("12°",style:TextStyle(
+                                        color:Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      )
+                                      )
+                                    ],
+                                  ),
+                                )
+
+                                ,
+
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.symmetric(vertical: 5),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            width: 160,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Thursday",style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
+                                ),
+                                Row(
+                                  children: [
+                                    Icon(Icons.water_drop_rounded,
+                                      color:Colors.blue[300],
+                                      size: 14,),
+                                    Text("14%",style:
+                                    TextStyle(
+                                      color:Colors.white,
+                                      fontSize: 14,
+                                    ),),
+                                  ],
+                                )
+                              ],
+                            ),
+                          ),
+                          Container(
+                            width: 150,
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Icon(
+                                  Icons.brightness_1,
+                                  color:Colors.orangeAccent[200],
+                                ),
+                                Icon(
+                                  Icons.nightlight_round,
+                                  color:Colors.orange[200],
+                                ),
+                                SizedBox(
+                                  width: 65,
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text("26°",style:TextStyle(
+                                        color:Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      )
+                                      ),
+                                      Text("12°",style:TextStyle(
+                                        color:Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      )
+                                      )
+                                    ],
+                                  ),
+                                )
+
+                                ,
+
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               )
